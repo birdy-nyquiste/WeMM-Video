@@ -59,5 +59,7 @@ runs/2026-11-23_1452_2b-metal_apollo-11-first-steps-video-audio/
 | `runner.py` | Builds the command with `run_hf.make_command`, runs and cancels `wemm-native` |
 | `history.py` | Reads `runs/`, converts frames, reconstructs commands for older runs |
 | `setup_checks.py` | Runtime checks, model cache, rebuilds |
+| `views.py` | HTML pieces: header, status line, empty states, stats, and the frame timeline |
+| `theme.py` | Gradio theme and CSS: stone neutrals, one teal accent, IBM Plex |
 | `presets.py` | Prompt presets |
 | `paths.py` | Shared locations and the model list |
